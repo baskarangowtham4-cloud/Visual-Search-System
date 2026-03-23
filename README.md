@@ -27,6 +27,7 @@ Similarity Search (Top-K)
 API Response + Explanation + Logs
 
 ## Project Structure
+
 case_study/
 │── main.py # FastAPI app
 │── search.py # FAISS search logic
