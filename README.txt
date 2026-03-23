@@ -39,6 +39,10 @@ pip install -r requirements.txt
 python embed.py
 uvicorn main:app --reload
 
+**Docker Container**
+docker build -t my-fastapi-app .
+docker run -d -p 8000:8000 my-fastapi-app
+
 **API Endpoint**
 http://127.0.0.1:8000/search
 
