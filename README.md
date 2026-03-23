@@ -4,20 +4,20 @@ An enterprise-grade visual search system that enables users to search images usi
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 Semantic Image Search using CLIP  
-- ⚡ Fast Retrieval with FAISS  
-- 🧠 AI-based Explanation Generation  
-- 🌐 FastAPI REST API (POST-based)  
-- 🖼️ Image Serving via API  
-- 📊 Structured JSON Responses  
-- 🧾 Full Request-Response Logging  
-- 🐳 Dockerized for Deployment  
+- Semantic Image Search using CLIP  
+- Fast Retrieval with FAISS  
+- AI-based Explanation Generation  
+- FastAPI REST API (POST-based)  
+- Image Serving via API  
+- Structured JSON Responses  
+- Full Request-Response Logging  
+- Dockerized for Deployment  
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 User Query → CLIP Text Embedding
 ↓
 Images → CLIP Image Embedding → FAISS Index
@@ -26,7 +26,7 @@ Similarity Search (Top-K)
 ↓
 API Response + Explanation + Logs
 
-## 📁 Project Structure
+## Project Structure
 case_study/
 │── main.py # FastAPI app
 │── search.py # FAISS search logic
@@ -39,7 +39,7 @@ case_study/
 │── image_paths.json # Image mapping
 │── images/ # Image dataset
 
-## ⚙️ Installation
+## Installation
 pip install -r requirements.txt
 python embed.py
 uvicorn main:app --reload
