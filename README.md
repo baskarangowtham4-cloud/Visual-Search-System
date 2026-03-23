@@ -47,10 +47,10 @@ uvicorn main:app --reload
 docker build -t my-fastapi-app .
 docker run -d -p 8000:8000 my-fastapi-app
 
-##API Endpoint
+## API Endpoint
 http://127.0.0.1:8000/search
 
-##Sample Input Payload
+## Sample Input Payload
 {
   "query": "dog",
   "top_k": 5
